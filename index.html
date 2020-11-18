@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>StiB Charity</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<meta property="og:title" content="StiB Charity" />
+	<meta name="og:description"
+		content="The goal is to build a self-sustainable and self-sufficient model of an amazing community to be replicated globally." />
+	<meta property="og:image" content="images/blur-charity-collaboration-1493374.jpg" />
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+	<link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+	<link rel="stylesheet" href="vendor/css/styles.css">
+	<link rel="stylesheet" href="vendor/css/main.css">
+
+</head>
+
+<body>
+	<div id="fb-root"></div>
+
+	<div class="wrapper-all-web">
+
+		<div class="modal-wrapper">
+			<!-- Button trigger modal -->
+
+			<!-- Modal -->
+			<div class="modal fade" id="modal-free-lunch" tabindex="-1" role="dialog"
+				aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-free-lunch"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzDRvmkvm-95S1NsUSsY8s6L"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modal-sleep" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-sleep"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzC7u_Yy-RHwFU2bYmCAbs-X"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modal-workforce" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-workforce"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzC_y7uSFtmw8Y08-Hw4-Yg8"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modal-disasters" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-disasters"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzDPEwlA3hHy9BqvgSsIRX8E"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modal-hydroponics" tabindex="-1" role="dialog"
+				aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-hydroponics"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzCXxpElVlSeEnvGxH1Nk5Tg"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modal-aquaponics" tabindex="-1" role="dialog"
+				aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-aquaponics"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzDifKyBaV9vz1QW3F6sMus4"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modal-bioponics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-bioponics"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzC6vHywGQGAmo41v0dnUn8M"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="modal-more" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" id="playerid-more"
+									src="https://www.youtube.com/embed/videoseries?list=PLOhpzpXLJJzCfarzWalTj2gbKdEhHT0f2"
+									frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- end modal wrapper -->
+
+		<div class="wrapper-scrolltop">
+			<i class="fas fa-angle-up"></i>
+		</div>
+		<div class="menu-side-wrapper">
+			<div class="close-menu">
+				<a href="#" class="menu-btn open-menu-btn-left btn-side-menu-active"><i
+						class="fas fa-angle-double-left"></i></a>
+				<a href="#" class="menu-btn open-menu-btn-right"><i class="fas fa-angle-double-right"></i></a>
+			</div>
+			<div class="side-menu">
+				<ul class="menu-side text-center">
+					<li><a href="#" class="n1">Our plans</a><span class="after"></span></li>
+					<li><a href="#" class="n2">Free Lunches</a><span class="after"></span></li>
+					<li><a href="#" class="n3">Homeless</a><span class="after"></span></li>
+					<li><a href="#" class="n4">Workforce</a><span class="after"></span></li>
+					<li><a href="#" class="n5">Disasters</a><span class="after"></span></li>
+					<li><a href="#" class="n6">S<span style="text-transform: lowercase;">ti</span>B PAY</a><span
+							class="after"></span></li>
+					<li><a href="#" class="n7">Donate</a><span class="after"></span></li>
+					<li><a href="#" class="n8">Contact Us</a><span class="after"></span></li>
+				</ul>
+			</div>
+		</div>
+		<!-- end side menu -->
+		<!-- <div class="dual-lang d-flex flex-column">
+			<a href="#" class="eng lang lang-active">EN</a>
+			<a href="#" class="vn lang">VN</a>
+		</div> -->
+
+		<div class="wrapper-all-content" style="overflow-x: hidden;">
+			<div class="wrapper-all-header">
+				<!-- start menu -->
+				<div id="header" class="header-menu">
+					<div class="wrapper-header navbar-custom">
+						<div class="background-black"></div>
+						<div class="container">
+							<div class="logo-menu">
+								<a href="http://charity.stib.co/" class="logo-pc"><img id="logo-1"
+										src="images/stib_logo_charity_2.png" alt="lostimg" class="img-responsive"></a>
+								<a href="http://charity.stib.co/" class="logo-mobile"><img id="logo-1"
+										src="images/Logo-StiB.png" alt="lostimg" class="img-responsive">
+									<span>Charity</span> </a>
+							</div>
+							<div class="hamburger-icon">
+								<a href="#"><img id="logo-1" src="images/svg/menu-button.svg" alt="lostimg"
+										class="img-responsive"></a>
+							</div>
+							<nav id="collapsibleNavId" class="primary-menu d-flex">
+								<ul class="left-menu">
+									<li><a href="#" class="n1">Our plans</a></li>
+									<li><a href="#" class="n6">S<span style="text-transform: lowercase;">ti</span>B
+											Pay</a></li>
+								</ul>
+								<ul class="sub-menu">
+									<li><a href="#" class="n2">Free Lunches</a></li>
+									<li><a href="#" class="n3">Homeless</a></li>
+									<li><a href="#" class="n4">Workforce</a></li>
+									<li><a href="#" class="n5">Disasters</a></li>
+								</ul>
+								<ul class="right-menu">
+									<li><a href="#" class="n7">Donate</a></li>
+									<li><a href="#" class="n8" style="border: none!important;">Contact Us</a></li>
+								</ul>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<!-- end menu -->
+
+				<!-- start background-banner -->
+				<div id="background-banner">
+					<div class="banner-content w-100 h-100" style="position: relative;">
+
+						<div class="text-banner w-100 h-100">
+							<div
+								class="wrapper-text-banner w-100 h-100 d-flex justify-content-center align-items-center">
+								<div class="flex-text-banner text-center">
+									<h1><span class="stibpay-char"> StiB PAY </span><i
+											class="fas fa-arrow-right header-icon-1"></i><span class="stibcharity-char">
+											StiB Charity </span><i class="fas fa-plus-circle header-icon-2"></i><span
+											class="stibuniversal-char"> StiB Universal </span></h1>
+									<p>"We decentralize and leave no one behind!"
+									</p>
+									<button class="btn-general whitepaper" style="text-transform: capitalize;"><a
+											href="https://docs.google.com/document/d/1nF7ZwjGV42LTUdq1Tk9GfS5LKpV6kxcRYwdh_Nwsn64/"
+											target="_blank">Whitepaper</a></button>
+								</div>
+
+							</div>
+						</div>
+						<div class="btn-banner-group">
+							<div class="row">
+								<div class="col-md-6 col-lg-3 col-6 col-custom">
+									<div class="btn-wrapper">
+										<a href="#"
+											class="btn-service food d-flex justify-content-center align-items-center n2"><span>Support
+												free lunches</span></a>
+										<div class="line-vertical"></div>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3 col-6 col-custom">
+									<div class="btn-wrapper">
+										<a href="#"
+											class="btn-service homeless d-flex justify-content-center align-items-center n3"><span>About
+												Homeless/Poverty</span></a>
+										<div class="line-vertical"></div>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3 col-6 col-custom">
+									<div class="btn-wrapper">
+										<a href="#"
+											class="btn-service workforce d-flex justify-content-center align-items-center n4"><span>Network/
+												(re)Train
+												the workforce</span></a>
+										<div class="line-vertical"></div>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3 col-6 col-custom">
+									<div class="btn-wrapper">
+										<a href="#"
+											class="btn-service disasters d-flex justify-content-center align-items-center n5"><span>Backup
+												places for disasters</span></a>
+										<div class="line-vertical"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- end background-banner -->
+			</div>
+			<!-- wrapper-all-header -->
+			<div id="ourplanId" style="background:#f5f5f5;">
+				<div class="about-us" style="background:url('images/bg-pattern.png')">
+
+					<div class="welcome-1 text-center">
+						<h4>Welcome to StiB Charity</h4>
+						<h1>What S<span style="text-transform: lowercase;">ti</span>B will do</h1>
+						<p>The goal is to build a self-sustainable and self-sufficient model of an amazing community to
+							be replicated globally.</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-lg-3 col-12">
+								<div class="wrapper-wtd flex-column d-flex align-items-center justify-content-center">
+									<div class="icon-wtd d-flex justify-content-center mb-2">
+										<img src="images/svg/breakfast.svg" alt="lostimg" class="icon-svg">
+									</div>
+									<div class="header-wtd text-center d-flex align-items-center">
+										<p><b style="color:#8fc342;">Free lunches</b> at public places like: Temples,
+											Churches, Schools...</p>
+									</div>
+									<button type="button" class="btn-general video-btn" data-toggle="modal"
+										data-target="#modal-free-lunch">
+										<i class="fas fa-play"></i>
+										Play Video Sample
+									</button>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-12">
+								<div class="wrapper-wtd flex-column d-flex align-items-center justify-content-center">
+									<div class="icon-wtd d-flex justify-content-center mb-2">
+										<img src="images/svg/moon.svg" alt="lostimg" class="icon-svg">
+									</div>
+									<div class="header-wtd text-center d-flex align-items-center">
+										<p><b style="color:#8fc342;">Free night sleeps</b> modeling Airbnb.</p>
+									</div>
+									<button type="button" class="btn-general video-btn" data-toggle="modal"
+										data-target="#modal-sleep">
+										<i class="fas fa-play"></i>
+										Play Video Sample
+									</button>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-12">
+								<div class="wrapper-wtd flex-column d-flex align-items-center justify-content-center">
+									<div class="icon-wtd d-flex justify-content-center mb-2">
+										<img src="images/svg/onboarding.svg" alt="lostimg" class="icon-svg">
+									</div>
+									<div class="header-wtd text-center d-flex align-items-center">
+										<p><b style="color:#8fc342;">Network/(re)train</b> the workforce for the next
+											digital revolution.</p>
+									</div>
+									<button type="button" class="btn-general video-btn" data-toggle="modal"
+										data-target="#modal-workforce">
+										<i class="fas fa-play"></i>
+										Play Video Sample
+									</button>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 col-12">
+								<div class="wrapper-wtd flex-column d-flex align-items-center justify-content-center">
+									<div class="icon-wtd d-flex justify-content-center mb-2">
+										<img src="images/svg/flood.svg" alt="lostimg" class="icon-svg">
+									</div>
+									<div class="header-wtd text-center d-flex align-items-center">
+										<p><b style="color:#8fc342;">Backups places</b> when disasters strike.</p>
+									</div>
+									<button type="button" class="btn-general video-btn" data-toggle="modal"
+										data-target="#modal-disasters">
+										<i class="fas fa-play"></i>
+										Play Video Sample
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="row row-fix">
+							<div class="set-width">
+								<div class="left-pic-temple">
+									<div class="pic-about-temple" style="position: relative;">
+										<div class="pic-border-behind"></div>
+										<div class="main-pic">
+											<img src="images/architecture-asia-building-891407.jpg" alt="lostimg"
+												class="img-fluid">
+										</div>
+										<div class="second-pic">
+											<img src="images/architecture-building-campus-207729.jpg" alt="lostimg"
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="third-pic">
+											<img src="images/people-1550504_1920.jpg" alt="lostimg"
+												class="img-fluid img-thumbnail">
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="coming-soon text-center n2">
+							<i class="fas fa-angle-double-down"></i>
+							<span>More Details</span>
+							<i class="fas fa-angle-double-down"></i>
+						</div>
+					</div>
+					<!-- end container -->
+
+				</div>
+				<!-- end about us -->
+			</div>
+
+			<div id="freelunchId" class="about-food">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-4 col-12">
+							<div class="wrapper-img">
+								<!-- <img src="images/adult-bags-battle-1657935.jpg" alt="lostimg" class="img-fluid"> -->
+								<img src="images/mockup-android.png" alt="lostimg" class="img-fluid mockup">
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-8 col-12 d-flex align-items-center space-mobile">
+							<div class="wrapper-content">
+								<h3>From 100 to 1000 free lunches in Saigon, Vietnam</h3>
+								<p>StiB will start with 100 (could be 1000) free lunches in Saigon, VN costing 10k₫-20k₫
+									each as a trial and donations will increase the number of free lunches.
+								</p>
+							</div>
+						</div>
+					</div> <!-- end row-->
+					<div class="row" style="padding-top: 50px;">
+						<div class="welcome-1 text-center">
+							<h1>Self-sustaining & Self-sufficient</h1>
+
+							<p>Gradually we will integrate Hydroponics, Aquaponics and so on ...</p>
+						</div>
+						<div class="tabs-self justify-content-center w-100">
+							<div class="tab-item tab-btn-active">
+								<button class="btn-general">Hydroponics</button>
+								<div class="btn-play-video tabs-active">
+									<div class="wrapper-tooltip">
+										<p>Play Video List</p>
+										<button type="button" class="video-btn rounded-circle" data-toggle="modal"
+											data-target="#modal-hydroponics">
+											<i class="fas fa-play"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="tab-item" style="margin-left: 15px;">
+								<button class="btn-general">Aquaponics</button>
+								<div class="btn-play-video">
+									<div class="wrapper-tooltip">
+										<p>Play Video List</p>
+										<button type="button" class="video-btn rounded-circle" data-toggle="modal"
+											data-target="#modal-aquaponics">
+											<i class="fas fa-play"></i>
+										</button>
+									</div>
+
+								</div>
+							</div>
+							<div class="tab-item" style="margin-left: 15px;">
+								<button class="btn-general">Bioponics</button>
+								<div class="btn-play-video">
+									<div class="wrapper-tooltip">
+										<p>Play Video List</p>
+										<button type="button" class="video-btn rounded-circle" data-toggle="modal"
+											data-target="#modal-bioponics">
+											<i class="fas fa-play"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="tab-item" style="margin-left: 15px;">
+								<button class="btn-general">More</button>
+								<div class="btn-play-video">
+									<div class="wrapper-tooltip">
+										<p>Play Video List</p>
+										<button type="button" class="video-btn rounded-circle" data-toggle="modal"
+											data-target="#modal-more">
+											<i class="fas fa-play"></i>
+										</button>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="wrapper-content-tabs">
+							<div class="position-tabs tabs-active">
+								<div class="row">
+									<div class="col-md-6 col-lg-6 col-12">
+										<div class="wrapper-img">
+											<img src="images/hydroponics-4255403_1920.jpg" alt="lostimg"
+												class="img-fluid">
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-6 col-12 d-flex align-items-center space-mobile">
+										<div class="wrapper-content">
+											<h3>Hydroponics System</h3>
+											<p>Hydroponics is a subset of hydroculture, which is a method of growing
+												plants without soil by instead using mineral nutrient solutions in a
+												water solvent. Terrestrial plants may be grown with only their roots
+												exposed to the nutritious liquid, or the roots may be physically
+												supported by an inert medium such as perlite or gravel.
+												The nutrients used in hydroponic systems can come from an array of
+												different sources, including (but not limited to) from fish excrement,
+												duck manure, or purchased chemical fertilisers.
+												Plants commonly grown hydroponically include tomatoes, peppers,
+												cucumbers, lettuces, and marijuana.
+												<br>-- Source: <a href="https://en.wikipedia.org/wiki/Hydroponics"
+													target="_blank">Wikipedia</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="position-tabs">
+								<div class="row reverse-row-mobile">
+									<div class="col-md-6 col-lg-6 col-12 d-flex align-items-center">
+										<div class="wrapper-content content-right">
+											<h3>Aquaponics System</h3>
+											<p>Aquaponics refers to any system that combines conventional aquaculture
+												(raising aquatic animals such as snails, fish, crayfish or prawns in
+												tanks) with hydroponics (cultivating plants in water) in a symbiotic
+												environment. In normal aquaculture, excretions from the animals being
+												raised can accumulate in the water, increasing toxicity. In an aquaponic
+												system, water from an aquaculture system is fed to a hydroponic system
+												where the by-products are broken down by nitrifying bacteria initially
+												into nitrites and subsequently into nitrates that are utilized by the
+												plants as nutrients. Then, the water is recirculated back to the
+												aquaculture system.
+												<br>-- Source: <a href="https://en.wikipedia.org/wiki/Aquaponics"
+													target="_blank">Wikipedia</a>
+											</p>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-6 col-12 space-mobile">
+										<div class="wrapper-img">
+											<img src="images/trout-233570_1920.jpg" alt="lostimg" class="img-fluid">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="position-tabs">
+								<div class="row">
+									<div class="col-md-6 col-lg-6 col-12">
+										<div class="wrapper-img">
+											<img src="images/bioponics.jpg" alt="lostimg" class="img-fluid">
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-6 col-12 d-flex align-items-center space-mobile">
+										<div class="wrapper-content">
+											<h3>Bioponics System</h3>
+											<p>Bioponics is a method of hydroponic growing coined by hydroponics veteran
+												William Texier, the founder of General Hydroponics Europe.
+												Bioponics involves the use of certified-organic nutrients in a
+												hydroponic solution along with a substrate. It provides an alternative
+												to hydroponic growing with synthetic fertilizers, and it’s been catching
+												on as more and more growers enjoy the challenge of combining growing
+												techniques in the search for healthier, tastier results.
+												<br>-- Source: <a
+													href="https://www.maximumyield.com/definition/3370/bioponics"
+													target="_blank">Maximumyield</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="position-tabs">
+								<div class="row h-100">
+									<div class="col-12 h-100 d-flex align-items-center justify-content-center">
+										<div class="wrapper-more-video">
+											<p class="so-on">What about your ideas ? ...</p>
+											<div class="info-contact">
+												<img src="images/svg/envelope.svg" alt="lostimg" class="icon-contact">
+												<span>charity AT StiB.co</span>
+											</div>
+											<div class="info-contact">
+												<img src="images/svg/telegram.svg" alt="lostimg" class="icon-contact">
+												<span><a href="https://t.me/stibcharity" target="_blank"
+														class="link-charity">
+														@StiBcharity</a></span>
+											</div>
+										</div>
+
+
+									</div>
+
+								</div>
+							</div>
+							<!-- end position-tabs-->
+
+						</div>
+						<!--end wrapper-content-tabs-->
+
+
+					</div> <!-- end row-->
+				</div> <!-- end container -->
+			</div> <!-- end about food-->
+
+			<!-- start homeless -->
+			<div id="homelessId" class="about-homeless" style="padding: 100px 0; background: #f5f5f5">
+				<div class="container">
+					<div class="wrapper-homeless d-flex align-items-center">
+						<div class="wrapper-img homeless-right-img">
+							<img src="images/baby-22194_1920.jpg" alt="lostimg" class="img-fluid">
+						</div>
+						<div class="wrapper-content">
+							<h3>Free night sleep in public places</h3>
+							<p>Free lunches + good night sleeps then StiB Universal can trial Universal Income from the
+								pool of volunteers so they can focus on what they'd like to do in life and get out of
+								poverty
+							</p>
+						</div>
+						<div class="wrapper-img homeless-left-img">
+							<img src="images/mockup.png" alt="lostimg" class="img-fluid">
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+			<!--end about-homeless-->
+
+
+			<!-- start workforce -->
+			<div id="workforceId" class="workforce" style="padding: 100px 0;">
+				<div class="container">
+					<div class="wrapper-workforce">
+						<div class="welcome-1 text-right set-width">
+							<h4>Learning from others</h4>
+							<h1>Networking the workforce.</h1>
+							<p>What do we need from the community?</p>
+						</div>
+
+						<div class="wrapper-img set-width">
+							<img src="images/workplace-1245776_1920.jpg" alt="lostimg" class="img-fluid">
+							<div class="wrapper-content content-workforce">
+								<p class="mb-0 text-right">
+									<i class="fas fa-check"></i> Spread the words and share so other locals know <br>
+									<i class="fas fa-check"></i> Volunteer to develop and build the models<br>
+									<i class="fas fa-check"></i> Networking and get the attention of the right
+									connections so this can be deployed as fast as possible with Crowdwisdom<br>
+									<i class="fas fa-check"></i> Partner with local merchants to provide organic
+									foods<br>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="share-btn-group d-flex justify-content-center align-items-center">
+						<div class="fb-share-button" data-href="http://charity.stib.co/" data-layout="button"
+							data-size="large"><a target="_blank"
+								href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcharity.stib.co%2F&amp;src=sdkpreparse"
+								class="fb-xfbml-parse-ignore">Share</a></div>
+
+						<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+							data-size="large" data-url="http://charity.stib.co/" data-show-count="false">Tweet</a>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+			</div>
+			<!--end workforce-->
+
+			<div id="disastersId" class="disasters" style="padding: 100px 0; background: #f5f5f5">
+				<div class="container">
+					<div class="row">
+						<div class="wrapper-disasters">
+							<div class="wrapper-content content-disasters">
+								<div class="welcome-1 text-right">
+									<!-- <h4>Support services</h4> -->
+									<h1 class="mt-0">Backup places for disasters.</h1>
+									<p class="text-right">Natural disasters can occur at any time and anywhere.</p>
+								</div>
+								<p class="mb-0 text-right">
+									When disasters strike these public places are prepared to shelter and assist those
+									in need more effectively!
+								</p>
+							</div>
+							<div class="col-12">
+								<div class="wrapper-img">
+									<img src="images/hurricane-63005_1280.jpg" alt="lostimg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<!--end about-homeless-->
+
+
+
+			<!-- <a class="carousel-control-prev" href="#quotesIdCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#quotesIdCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a> -->
+			<!-- start quotes -->
+			<div id="quotes">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+
+							<blockquote class="custom-quote blockquote text-center">
+								<div id="quotesIdCarousel" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner" role="listbox">
+										<div class="carousel-item active">
+											<p class="mb-0" style="font-style: italic;">"Give a Man a Fish, and You Feed
+												Him for a Day. Teach a Man To Fish, and You Feed Him for a Lifetime"
+											</p>
+											<footer class="blockquote-footer">A quote from <cite
+													title="Source Title">Lao Tuz</cite>
+											</footer>
+										</div>
+										<div class="carousel-item">
+											<p class="mb-0" style="font-style: italic;">"No society can surely be
+												flourishing and happy, of which the far greater part of the members are
+												poor and miserable."
+											</p>
+											<footer class="blockquote-footer">A quote from <cite
+													title="Source Title">Adam
+													Smith</cite>
+											</footer>
+										</div>
+									</div>
+									<ol class="carousel-indicators">
+										<li data-target="#quotesIdCarousel" data-slide-to="0" class="active"></li>
+										<li data-target="#quotesIdCarousel" data-slide-to="1"></li>
+									</ol>
+								</div>
+
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end quotes -->
+
+			<!-- start stibpay -->
+			<div id="stibpayId" style="background:#f5f5f5;">
+				<div class="stib-pay">
+
+					<div class="welcome-1 text-center">
+						<h4>StiB PAY in future</h4>
+						<h1>S<span style="text-transform: lowercase;">ti</span>B PAY <img
+								src="images/svg/smartphone-call.svg" alt="lostimg" class="phone-icon"></h1>
+						<p>StiB PAY <i class="fas fa-arrow-right"></i> StiB Charity <i class="fas fa-plus-circle"></i>
+							StiB
+							Universal</p>
+					</div>
+					<div class="container">
+						<div class="description text-center">
+							<p>Your keys, your funds so your freedom. If you receive donations then your account will be
+								limited to only spend to buy food and necessities!</p>
+						</div>
+
+						<div class="description text-center mt-3">
+							<p class="mb-0">StiB Universal will trial starting with 100 volunteers to receive $200
+								monthly so they can focus on building an amazing community with StiB Charity!</p>
+						</div>
+						<!-- <div class="wrapper-btn-group d-flex justify-content-center text-center"
+							style="padding-top: 50px;">
+							<div class="btn-group ">
+								<button type="button" class="btn-general">
+									<a href="#"><i class="fab fa-android"></i>
+										Download for Android</a>
+
+								</button>
+								<button type="button" class="btn-general ml-2">
+									<a href="#"><i class="fab fa-apple"></i>
+										Download for IOS</a>
+								</button>
+							</div>
+						</div> -->
+					</div>
+					<!-- end container -->
+
+				</div>
+				<!-- end stib-pay -->
+			</div>
+			<!--end stibpay-->
+
+			<div id="donateId" class="donate-us" style="padding: 100px 0;">
+				<div class="wrapper-donate-us">
+
+					<div class="welcome-1 text-center">
+						<h4>We need volunteers!</h4>
+						<h1>Donate</h1>
+						<p>We will reserve $3M to kickstart this project!</p>
+					</div>
+					<div class="container">
+						<div class="description text-center">
+							<p>Now StiB and <a href="https://bitcoinvn.io/" target="_blank">BitcoinVN</a> are Custodians
+								of these wallets but gradually we will partner and invite trusted
+								individuals/businesses/organizations locally to manage the funds through multi-sig
+								wallets</p>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-lg-6 col-12 col-border-right">
+								<div class="wrapper-content qr-eth">
+									<h3>ETH wallet</h3>
+									<p>0xAc7aD1416E5e93eAAe8a64C42Cf363bB6e4Bd061</p>
+									<div class="qr-wrapper">
+										<div class="wrapper-img">
+											<img src="images/qr_eth.png" alt="lostimg" class="img-fluid">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-6 col-12">
+								<div class="wrapper-content qr-btc">
+									<h3>BTC wallet</h3>
+									<p>1NwwyKy9D5zGzA9mjgxYRZsKQhVxzcsQGF</p>
+									<div class="qr-wrapper">
+										<div class="wrapper-img">
+											<img src="images/qr.png" alt="lostimg" class="img-fluid">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end container -->
+
+				</div>
+			</div>
+			<!--end donate us-->
+
+			<div id="contactId" style="background: #f5f5f5">
+				<div class="contact-us" style="background:url('images/bg-pattern.png'); padding: 100px 0;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="welcome-1">
+									<!-- <h4>Support services</h4> -->
+									<h1 class="mt-0" style="color: #8fc342;">Contact Us.</h1>
+									<!-- <p>Let's keep in touch with us:</p> -->
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="wrapper-content content-contact">
+									<div class="row wrapper-icon-group">
+										<div class="col-md-3 col-lg-3 col-12">
+											<div class="info-contact">
+												<img src="images/svg/phone-call.svg" alt="lostimg" class="icon-contact">
+												<span>+84 90 609 7525</span>
+											</div>
+											<div class="info-contact">
+												<img src="images/svg/envelope.svg" alt="lostimg" class="icon-contact">
+												<span>charity AT StiB.co</span>
+											</div>
+										</div>
+										<div class="col-md-3 col-lg-3 col-12">
+											<div class="info-contact">
+												<img src="images/svg/world.svg" alt="lostimg" class="icon-contact">
+												<span><a href="https://stib.co/">
+														StiB.co</a></span>
+											</div>
+											<div class="info-contact">
+												<img src="images/svg/telegram.svg" alt="lostimg" class="icon-contact">
+												<span><a href="https://t.me/stibcharity" target="_blank">
+														@StiBcharity</a></span>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-6 col-12">
+											<div class="info-contact">
+												<img src="images/svg/address.svg" alt="lostimg" class="icon-contact">
+												<span>17
+													Hoa
+													Su St, Phu Nhuan District, Saigon, VN</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--end col-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end contact us-->
+
+			<footer class="copy-right">
+				<div class="container">
+					<div class="footerL text-center">
+						© StiB Labs 2014-2140, All Rights Reserved | <a href="https://stib.co/index.php?showpage=terms"
+							target="_blank" class="link_ToS">TERMS</a> | <a
+							href="https://stib.co/index.php?showpage=privacy" target="_blank"
+							class="link_Pri">PRIVACY</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+	</div>
+	<!-- wrapper-all-web -->
+	<script async defer crossorigin="anonymous"
+		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
+	<script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript" src="bootstrap4/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootstrap4/js/bootstrap.bundle.min.js"></script>
+
+	<script type="text/javascript" src="vendor/js/lang.js"></script>
+	<script type="text/javascript" src="vendor/js/main.js"></script>
+
+</body>
+
+</html>
